@@ -2,7 +2,7 @@ name: CI/CD DevSecOps
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-test-scan:
     runs-on: ubuntu-latest
